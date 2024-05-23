@@ -1,0 +1,21 @@
+{
+    "name": "youpop/membrodash",
+    "description": "Backend for Youpop MembroDash",
+    "autoload": {
+        "psr-4": {
+            "Youpop\\Membrodash\\": "src/backend/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Wellington Cristian",
+            "email": "wellington.cris799@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "4.0"
+    },
+    "config": {
+        "vendor-dir": "src/backend/vendor"
+    }
+}
